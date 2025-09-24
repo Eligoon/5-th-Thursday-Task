@@ -28,7 +28,7 @@ class Team
 	public String toString()
 	{
 		StringBuilder result = new StringBuilder();
-		result.append("Hold: ").append(this.teamName).append(" : ").append(this.rank).append("\n"); // "Hold" could be a typo for "Team"
+		result.append("Team: ").append(this.teamName).append(" : ").append(this.rank).append("\n");
 		result.append("Players:\n");
 		for (String player : playerNames)
 		{
